@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recognition Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body class="result-page">
+    <div class="container">
+        <h2>Face Recognition Results</h2>
+        <img src="{{ image_url }}" alt="Uploaded Image" width="300">
+
+        {% if faces %}
+            <h3>Recognized Faces:</h3>
+            <ul>
+                {% for face in faces %}
+                    <li>{{ face }}</li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No faces recognized.</p>
+        {% endif %}
+
+        <br>
+        <a href="/">Upload another image</a>
+    </div>
+</body>
+</html>

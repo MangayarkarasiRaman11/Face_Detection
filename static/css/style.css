@@ -1,0 +1,90 @@
+.main-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333; /* Dark gray */
+    text-align: center;
+    margin-bottom: 20px;
+}/* Background for Index Page */
+body {
+    background-color: #c0ec79 !important; /* Light gray */
+}
+
+/* Optional: Different background color for result page */
+body.result-page {
+    background-color: #a4cbf0 !important; /* Light blue */
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    color: rgb(235, 128, 128);
+    background-color: #f0f0f0; /* Added background color for general body */
+}
+
+/* Container */
+.container {
+    background: rgba(235, 154, 154, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    margin-top: 20px;
+    color: black;
+}
+
+/* Upload Form */
+input[type="file"] {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+button {
+    background: #d3dfec;
+    color: rgb(177, 83, 83);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #bbd3ec;
+}
+
+/* Image */
+img {
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Recognized Faces List */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #007BFF;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Link */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
